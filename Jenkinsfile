@@ -25,6 +25,7 @@ pipeline {
         stage('Move files'){
             steps{
                 sh 'pwd'
+                sh 'ls -l'
             }
         }
     }
